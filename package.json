@@ -1,0 +1,23 @@
+{
+  "name": "bango-benchmark",
+  "version": "1.0.0",
+  "description": "バンゴーAPI 名寄せ精度ベンチマーク — 再現可能な方法論・データセット生成器・API計測ハーネス（MIT）",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taku1211/bango-benchmark.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "benchmark:api": "tsx run/run-benchmark.ts fixtures/synthetic-corporations.sql"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "tsx": "^4.19.0",
+    "typescript": "^5",
+    "vitest": "^4.1.0"
+  }
+}
