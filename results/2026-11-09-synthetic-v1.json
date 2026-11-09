@@ -1,0 +1,287 @@
+{
+  "generatedAt": "2026-11-09",
+  "matchSimilarityThreshold": 0.5,
+  "normalizerVersion": "2",
+  "seed": 20260704,
+  "fixtureHash": "038f671410a7a7e5",
+  "datasetHash": "5580c66f60478ac2",
+  "confidentPrecision": 1,
+  "corpusSize": 2000,
+  "summary": {
+    "evaluated": 2000,
+    "precisionEvaluated": 1407,
+    "ambiguousRows": 37,
+    "coverage": 0.7035,
+    "confidentPrecision": 1,
+    "reviewRate": 0.095,
+    "unmatchedRate": 0.2015,
+    "reviewRescueRate": 1,
+    "falseNegativeRate": 0.2015,
+    "ambiguousConfidentViolations": 0,
+    "hintPresent": {
+      "total": 993,
+      "coverage": 0.7311178247734139,
+      "confidentPrecision": 1
+    },
+    "hintAbsent": {
+      "total": 1007,
+      "coverage": 0.676266137040715,
+      "confidentPrecision": 1
+    }
+  },
+  "curve": [
+    {
+      "threshold": 0.7,
+      "coverage": 0.708,
+      "precision": 1
+    },
+    {
+      "threshold": 0.75,
+      "coverage": 0.693,
+      "precision": 1
+    },
+    {
+      "threshold": 0.8,
+      "coverage": 0.6855,
+      "precision": 1
+    },
+    {
+      "threshold": 0.85,
+      "coverage": 0.6815,
+      "precision": 1
+    },
+    {
+      "threshold": 0.9,
+      "coverage": 0.681,
+      "precision": 1
+    },
+    {
+      "threshold": 0.95,
+      "coverage": 0.6805,
+      "precision": 1
+    }
+  ],
+  "caseBreakdown": [
+    {
+      "caseType": "variant",
+      "absorbable": true,
+      "evaluated": 120,
+      "coverage": 0.9916666666666667,
+      "confidentPrecision": 1
+    },
+    {
+      "caseType": "spacing",
+      "absorbable": true,
+      "evaluated": 651,
+      "coverage": 0.9662058371735791,
+      "confidentPrecision": 1
+    },
+    {
+      "caseType": "shorthand",
+      "absorbable": true,
+      "evaluated": 163,
+      "coverage": 0.9754601226993865,
+      "confidentPrecision": 1
+    },
+    {
+      "caseType": "kind_swap",
+      "absorbable": true,
+      "evaluated": 112,
+      "coverage": 0.9375,
+      "confidentPrecision": 1
+    },
+    {
+      "caseType": "kind_drop",
+      "absorbable": true,
+      "evaluated": 216,
+      "coverage": 0.8888888888888888,
+      "confidentPrecision": 1
+    },
+    {
+      "caseType": "width",
+      "absorbable": true,
+      "evaluated": 17,
+      "coverage": 0.9411764705882353,
+      "confidentPrecision": 1
+    },
+    {
+      "caseType": "long_sound",
+      "absorbable": true,
+      "evaluated": 35,
+      "coverage": 0.9714285714285714,
+      "confidentPrecision": 1
+    },
+    {
+      "caseType": "kana",
+      "absorbable": false,
+      "evaluated": 20,
+      "coverage": 0,
+      "confidentPrecision": 0
+    },
+    {
+      "caseType": "abbrev",
+      "absorbable": false,
+      "evaluated": 7,
+      "coverage": 0,
+      "confidentPrecision": 0
+    },
+    {
+      "caseType": "typo",
+      "absorbable": false,
+      "evaluated": 325,
+      "coverage": 0.006153846153846154,
+      "confidentPrecision": 1
+    },
+    {
+      "caseType": "partial",
+      "absorbable": false,
+      "evaluated": 112,
+      "coverage": 0,
+      "confidentPrecision": 0
+    },
+    {
+      "caseType": "composite",
+      "absorbable": true,
+      "evaluated": 155,
+      "coverage": 0.9741935483870968,
+      "confidentPrecision": 1
+    },
+    {
+      "caseType": "composite",
+      "absorbable": false,
+      "evaluated": 67,
+      "coverage": 0,
+      "confidentPrecision": 0
+    }
+  ],
+  "webArtifact": {
+    "coverage": 0.7035,
+    "confidentPrecision": 1,
+    "reviewRescueRate": 1,
+    "falseNegativeRate": 0.2015,
+    "ambiguousConfidentViolations": 0,
+    "hintPresent": {
+      "total": 993,
+      "coverage": 0.7311178247734139,
+      "confidentPrecision": 1
+    },
+    "hintAbsent": {
+      "total": 1007,
+      "coverage": 0.676266137040715,
+      "confidentPrecision": 1
+    },
+    "curve": [
+      {
+        "threshold": 0.7,
+        "coverage": 0.708,
+        "precision": 1
+      },
+      {
+        "threshold": 0.75,
+        "coverage": 0.693,
+        "precision": 1
+      },
+      {
+        "threshold": 0.8,
+        "coverage": 0.6855,
+        "precision": 1
+      },
+      {
+        "threshold": 0.85,
+        "coverage": 0.6815,
+        "precision": 1
+      },
+      {
+        "threshold": 0.9,
+        "coverage": 0.681,
+        "precision": 1
+      },
+      {
+        "threshold": 0.95,
+        "coverage": 0.6805,
+        "precision": 1
+      }
+    ],
+    "caseBreakdown": [
+      {
+        "caseType": "variant",
+        "absorbable": true,
+        "coverage": 0.9916666666666667,
+        "confidentPrecision": 1
+      },
+      {
+        "caseType": "spacing",
+        "absorbable": true,
+        "coverage": 0.9662058371735791,
+        "confidentPrecision": 1
+      },
+      {
+        "caseType": "shorthand",
+        "absorbable": true,
+        "coverage": 0.9754601226993865,
+        "confidentPrecision": 1
+      },
+      {
+        "caseType": "kind_swap",
+        "absorbable": true,
+        "coverage": 0.9375,
+        "confidentPrecision": 1
+      },
+      {
+        "caseType": "kind_drop",
+        "absorbable": true,
+        "coverage": 0.8888888888888888,
+        "confidentPrecision": 1
+      },
+      {
+        "caseType": "width",
+        "absorbable": true,
+        "coverage": 0.9411764705882353,
+        "confidentPrecision": 1
+      },
+      {
+        "caseType": "long_sound",
+        "absorbable": true,
+        "coverage": 0.9714285714285714,
+        "confidentPrecision": 1
+      },
+      {
+        "caseType": "kana",
+        "absorbable": false,
+        "coverage": 0,
+        "confidentPrecision": 0
+      },
+      {
+        "caseType": "abbrev",
+        "absorbable": false,
+        "coverage": 0,
+        "confidentPrecision": 0
+      },
+      {
+        "caseType": "typo",
+        "absorbable": false,
+        "coverage": 0.006153846153846154,
+        "confidentPrecision": 1
+      },
+      {
+        "caseType": "partial",
+        "absorbable": false,
+        "coverage": 0,
+        "confidentPrecision": 0
+      },
+      {
+        "caseType": "composite",
+        "absorbable": true,
+        "coverage": 0.9741935483870968,
+        "confidentPrecision": 1
+      },
+      {
+        "caseType": "composite",
+        "absorbable": false,
+        "coverage": 0,
+        "confidentPrecision": 0
+      }
+    ],
+    "normalizerVersion": "2"
+  }
+}
