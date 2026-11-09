@@ -60,7 +60,10 @@ export type RunBenchmarkDeps = {
     prefectureCode?: string;
   }) => Promise<BenchmarkCandidate[]>;
   /** production の rankCandidates。 */
-  rankCandidates: (candidates: BenchmarkCandidate[]) => RankOutcome;
+  rankCandidates: (
+    candidates: BenchmarkCandidate[],
+    input: { inputNameNormalized: string },
+  ) => RankOutcome;
 };
 
 /**
@@ -98,7 +101,8 @@ export async function runBenchmarkCore(
       inputNameNormalized,
       prefectureCode: testCase.prefectureHint,
     });
-    const ranked = deps.rankCandidates(candidates);
+    // production の service.ts と同じく照合キーを判定にも渡す（#690 完全一致判定）。
+    const ranked = deps.rankCandidates(candidates, { inputNameNormalized });
 
     rows.push({
       topScore: candidates[0]?.score ?? 0,

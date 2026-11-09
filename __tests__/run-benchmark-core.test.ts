@@ -137,7 +137,9 @@ describe("runBenchmarkCore", () => {
       rankCandidates,
     });
 
-    expect(rankCandidates).toHaveBeenCalledWith(candidates);
+    expect(rankCandidates).toHaveBeenCalledWith(candidates, {
+      inputNameNormalized: CASES[0]!.input,
+    });
     expect(rows[0]).toMatchObject({
       topScore: 0.95,
       secondScore: 0.7,
